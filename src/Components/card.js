@@ -10,8 +10,8 @@ import card3 from './assets/Images/card-3.jpg'
 
 function Card1() {
     return (
-        <div className="card-cont pt-5 pb-5">
-            <Container>
+        <div className="card-cont">
+            <Container className="pt-5 pb-5">
                 <CardDeck>
                     <Card style={{ width: '18rem' }} bg="dark" text="white" className="card">
                         <Card.Img className="img-fluid" variant="top" src={card1} />
@@ -38,8 +38,8 @@ function Card1() {
                         <Card.Body>
                             <Card.Title>Sand Area</Card.Title>
                             <Card.Text>
-                            coast area. calm body of water. cove beside mountains. 
-                            flamigo on body of water. silhouette of mountain and sea view.</Card.Text>
+                            Coast area. calm body of water. cove beside mountains. 
+                            flamigo on body of water. silhouette of mountain.</Card.Text>
                             <Button variant="light">Learn More</Button>
                         </Card.Body>
                     </Card>

@@ -1,15 +1,19 @@
 import { React } from "react";
 
 import { Container, Row, Col } from "react-bootstrap";
+import Fade from 'react-reveal/Fade';
 
+
+import image1 from './assets/Images/image1.jpg'
 
 
 function DGT() {
     return (
         <div className="p-5">
+            <Fade left>
             <Container>
-                <Row>
-                    <Col className="text-dark text-left m-auto">
+                <Row>     
+                    <Col md="6" className="text-dark text-left">
                         <h2>Protect Nature</h2>
                         <p><i>A page made by React and React-Bootstrap components.</i>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -21,11 +25,12 @@ function DGT() {
                         eros velit, id aliquet leo viverra vel.
                         Praesent aliquet lobortis nibh, in lobortis augue tempor at.</p>
                     </Col>
-                    <Col>
-                        <iframe className="w-100 h-100" src="https://www.youtube.com/embed/9h_-vBYui_U" title="video" frameborder="0"></iframe>
+                    <Col md="6">
+                        <img className="img-fluid" src={image1}/>
                     </Col>
                 </Row>
             </Container>
+            </Fade>
         </div>
     )
 }
