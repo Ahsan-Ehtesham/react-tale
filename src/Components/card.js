@@ -10,7 +10,7 @@ import card3 from './assets/Images/card-3.jpg'
 
 function Card1() {
     return (
-        <div className="card-cont p-5">
+        <div className="card-cont pt-5 pb-5">
             <Container>
                 <CardDeck>
                     <Card style={{ width: '18rem' }} bg="dark" text="white" className="card">

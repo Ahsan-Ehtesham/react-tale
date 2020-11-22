@@ -22,7 +22,7 @@ function DGT() {
                         Praesent aliquet lobortis nibh, in lobortis augue tempor at.</p>
                     </Col>
                     <Col>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/9h_-vBYui_U" title="video" frameborder="0" loop autoplay muted></iframe>
+                        <iframe className="w-100 h-100" src="https://www.youtube.com/embed/9h_-vBYui_U" title="video" frameborder="0"></iframe>
                     </Col>
                 </Row>
             </Container>
