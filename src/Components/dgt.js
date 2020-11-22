@@ -26,7 +26,7 @@ function DGT() {
                         Praesent aliquet lobortis nibh, in lobortis augue tempor at.</p>
                     </Col>
                     <Col md="6">
-                        <img className="img-fluid" src={image1}/>
+                        <img className="img-fluid" src={image1} alt="Nature"/>
                     </Col>
                 </Row>
             </Container>
